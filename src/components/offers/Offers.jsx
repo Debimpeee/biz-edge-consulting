@@ -1,7 +1,5 @@
 import React from 'react'
 import styles from "./Offers.module.css"
-import {BsGraphUp} from "react-icons/bs"
-import {MdPublic} from "react-icons/md"
 import { HiOutlineRefresh  } from "react-icons/hi"
 import { BsClipboardCheck, BsGraphUpArrow } from "react-icons/bs"
 import { FaGlobe} from "react-icons/fa"
