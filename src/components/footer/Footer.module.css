@@ -1,0 +1,27 @@
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3rem 5rem 2rem 5rem;
+    background-color: #eeeeeed0;
+}
+
+p{
+    font-size: 1rem;
+    color: #333;
+}
+
+
+@media screen and (max-width: 768px){
+    footer{
+        padding: 1rem 1.5rem;
+    }
+
+    p{
+        font-size: 0.8rem;
+    }
+
+    .first{
+        margin-bottom: 1rem;
+    }
+}

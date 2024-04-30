@@ -1,0 +1,42 @@
+.about{
+    padding: 4rem;
+}
+
+.about h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 2rem;
+    text-align: center;
+}
+
+.justa span{
+    background-color: #0077b6;
+    color: #fff;
+    padding: 20px 3px 3px 20px;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.textarea p{
+    font-size: 1rem;
+    line-height: 2;
+    color: #696969;
+    margin-bottom: 1.5rem;
+    text-wrap: wrap;
+}
+
+@media screen and (max-width: 540px){
+    .about{
+        padding: 3rem 2rem;
+    }
+
+    .about h3{
+        font-size: 1.5rem;
+        margin: 1rem;
+    }
+
+    .justa span{
+        padding: 10px 2px;
+        font-size: 2rem;
+    }
+}

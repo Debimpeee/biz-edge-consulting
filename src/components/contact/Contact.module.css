@@ -1,0 +1,115 @@
+.contact{
+    background-color: #eeeeeed0;
+    padding: 3rem 5rem;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 1rem;
+}
+
+.logo{
+    color: #072d44;
+    font-size: 1.8rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.brief p{
+    line-height: 1.6;
+    margin-top: 5px;
+}
+
+.brief h1{
+    text-wrap: wrap;
+}
+
+.brief p,
+.location p,
+.info p,
+.mail p{
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.justa span{
+    background-color: #0077b6;
+    color: #fff;
+    padding: 20px 3px 3px 20px;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    color: #0077b6;
+    margin-right: 10px;
+}
+
+.brief,
+.location,
+.info,
+.mail{
+    margin-bottom: 0.7rem;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .brief{
+        padding: 0.5rem 0;
+    }
+    .container{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 519px){
+    .contact{
+        padding: 1rem 1.5rem;
+    }
+    
+    .heading h3{
+        font-size: 1.5rem;
+        margin: 1.5rem;;
+    }
+    
+    .justa span{
+        font-size: 2rem;
+    }
+
+    .container{
+        padding: 1rem 1.5rem;
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .contact{
+        padding: 3rem 2rem;
+    }
+
+    .heading h3{
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 1.5rem;
+    }
+
+    .justa span{
+        padding: 10px 2px;
+        font-size: 2rem;
+    }
+}

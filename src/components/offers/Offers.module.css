@@ -1,0 +1,179 @@
+.offers{
+    padding: 4rem;
+    background-color: #eeeeeed0;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 1rem;
+}
+
+.heading p{
+    font-size: 1rem;
+    line-height: 2;
+    color: #333;
+    text-wrap: wrap;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding: 2.5rem 0;
+}
+
+.card{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #fff; 
+   padding: 1.5rem;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); 
+   border-radius: 5px;
+   margin-top: 10px;
+}
+
+.card span{
+    margin: 8px 0;
+}
+
+h4{
+    font-size: 1.2rem;
+    margin: 10px 0;
+
+}
+
+li{
+    font-size: 1rem;
+    line-height: 1.6;
+    list-style-type: none;
+    text-align: center;
+}
+
+.justa span{
+    background-color: #0077b6;
+    color: #fff;
+    padding: 20px 3px 3px 20px;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+
+@media screen and (max-width: 519px){
+    .offers{
+        padding: 1rem 1.5rem;
+    }
+    
+    .heading h3{
+        font-size: 1.5rem;
+        margin: 1.5rem;;
+    }
+    
+    .justa span{
+        font-size: 2rem;
+    }
+    
+    .cards{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .offers{
+        padding: 3rem 4rem;
+    }
+
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.5rem;
+        padding: 2rem 0;
+    }
+}
+
+
+@media screen and (max-width: 1235px){
+    .card{
+        padding: 1.3 1.5rem;
+     }
+
+     .card span{
+        margin: 10px 0;
+    }
+    
+    h4{
+        font-size: 1rem;
+    }
+    
+    li{
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .card{
+        padding: 1rem ;
+     }
+} 
+
+@media screen and (max-width:1028px) {
+    .card{
+        padding: 1rem 1.2rem ;
+     }
+
+     .card span{
+        margin: 8px 0;
+    }
+    
+    li{
+        line-height: 1.4;
+        font-size: 0.9rem;
+    }
+    
+    h4{
+        font-size: 0.8rem;
+        margin: 10px 0;
+    }
+} 
+
+
+@media screen and (max-width: 1000px){
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 540px){
+    .offers{
+        padding: 3rem 2rem;
+    }
+
+    .heading h3{
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 1rem;
+    }
+
+    .justa span{
+        padding: 10px 2px;
+        font-size: 2rem;
+    }
+
+    .cards{
+        grid-template-columns: 1fr;
+    }
+
+    .card{
+        padding: 1rem;
+     }
+
+}
+
